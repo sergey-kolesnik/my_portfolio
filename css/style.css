@@ -1,0 +1,161 @@
+@font-face {
+    font-family: TildaSans;
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/TildaSans-Light.ttf);
+}
+
+
+@font-face {
+    font-family: TildaSans;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/TildaSans-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: TildaSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url(../fonts/TildaSans-Medium.ttf);
+}
+
+
+@font-face {
+    font-family: TildaSans;
+    font-style: normal;
+    font-weight: 600;
+    src: url(../fonts/TildaSans-Semibold.ttf);
+}
+
+
+@font-face {
+    font-family: TildaSans;
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/TildaSans-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: TildaSans;
+    font-style: normal;
+    font-weight: 800;
+    src: url(../fonts/TildaSans-ExtraBold.ttf);
+}
+
+
+
+@font-face {
+    font-family: TildaSans;
+    font-style: normal;
+    font-weight: 900;
+    src: url(../fonts/TildaSans-Black.ttf);
+}
+
+:root {
+    --gold: #FF9235;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "TildaSans", sans-serif;
+    color: #141C3A;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: inherit;
+    padding: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+button, input, textarea {
+    outline: none;
+    appearance: none;
+}
+
+button:focus, input:focus, textarea:focus {
+    outline: none;
+}
+
+button {
+	padding: 0;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+
+.container {
+    max-width: 1320px;
+    padding: 0 12px;
+    margin: 0 auto;
+    width: 100%;
+
+
+}
+
+
+.title {
+    margin: 0;
+    padding: 0;
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.header__container {
+    margin-bottom: 80px;
+    padding: 45px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+    
+}
+
+
+.nav__list {
+    display: flex;
+    gap: 150px
+    
+}
+
+.nav__link {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.header__button {
+    width: 255px;
+    height: 45;
+    padding: 8px 16px;
+    border: 2px solid var(--gold);
+    border-radius: 16px;
+    color: var(--gold);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.about-me__image {
+    max-width: 440px;
+    max-height: 540px;
+    border-radius: ;
+}
