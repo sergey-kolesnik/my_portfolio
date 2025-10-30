@@ -13,12 +13,12 @@
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="" class="nav__link">
+                        <a href="#hero" class="nav__link">
                             Главная
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="" class="nav__link">
+                        <a href="#about-me" class="nav__link">
                             Обо мне
                         </a>
                     </li>
@@ -40,7 +40,7 @@
         </div> 
     </header>
     <main>
-        <section class="hero">
+        <section id="hero" class="hero">
             <div class="container hero__container">
                 <h2 class="hero__title title">
                     Колесник Сергей
@@ -49,20 +49,24 @@
                     Fullstack-разработчик с&nbsp;опытом создания 
                     сайтов-визиток и&nbsp;рекламных лендингов.
                 </p>
+                <img class="hero__image" src="./images/main.png" alt="Картинка">
             </div>
         </section>
-        <section class="about-me">
+        <section id="about-me" class="about-me">
             <div class="container about-me__container">
                 <h2 class="about-me__title title">
                     Привет, я Fullstack-разработчик.
                 </h2>
-                <p>
+                <p class="about-me__description">
                     Я&nbsp;создаю привлекательные и&nbsp;функциональные веб-страницы, 
                     которые помогают вашим клиентам и&nbsp;партнерам быстро узнать о&nbsp;вас и&nbsp;ваших услугах.
-                     Мои проекты отличаются современным дизайном, удобной навигацией и&nbsp;высокой 
-                     скоростью загрузки.
+                    Мои проекты отличаются современным дизайном, удобной навигацией и&nbsp;высокой 
+                    скоростью загрузки.
                 </p>
-                <img src="./images/photo.png" alt="Мое фото" class="about-me__image">
+                <figure class="about-me__photo">
+                    <img src="./images/my_photo.png" alt="Мое фото" class="about-me__image">
+                </figure>
+                
             </div>
         </section>
         <section class="skills">
